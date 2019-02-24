@@ -19,8 +19,8 @@ public class Lab_3_1 {
 
 	    while ((input = in.nextInt()) != 0) {
 
-	        small = in.nextInt();
-	        large = in.nextInt();
+	        //small = in.nextInt();
+	        //large = in.nextInt();
 
 	        if (input != 0)
 	            sum = input + sum;
