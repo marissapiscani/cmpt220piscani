@@ -25,7 +25,7 @@ public class Lab_4_6 {
 		}
 
 	
-
+		// JA: Missing logic
 		private static int[] insert(int[] a, int i, int j) {
 		// TODO Auto-generated method stub
 		return null;
