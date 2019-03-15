@@ -9,7 +9,7 @@ public class Lab5_2 {
 		for(double d : x) {
 			dev += Math.pow(Math.abs(avg - d),2);
 		}
-			return Math.sqrt(dev / x.length);
+			return Math.sqrt(dev / (x.length - 1)); // JA
 	}
 	public static double mean(double[] x) {
 		double sum = 0;

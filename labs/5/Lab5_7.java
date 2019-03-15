@@ -16,8 +16,8 @@ public class Lab5_7 {
 		
 		double[][] array = new double[size][size];
 		System.out.println("Enter numbers into the matrix: ");
-		for (int i=0; i<3; i++) {
-			for(int j=0; j<3; j++) {
+		for (int i=0; i<array.length; i++) { // JA
+			for(int j=0; j<array[0].length; j++) { // JA
 				array[i][j] = scanner.nextInt();
 			}
 		}
