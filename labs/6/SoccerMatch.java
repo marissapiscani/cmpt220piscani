@@ -1,5 +1,6 @@
 package lab6;
 
+// JA: You are missing the Goal class
 import java.util.*;
 
 public class SoccerMatch {
