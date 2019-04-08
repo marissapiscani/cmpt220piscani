@@ -12,7 +12,8 @@ public class Problem2 {
 			StackOfIntegers stack = new StackOfIntegers();
 			findFactors(num, stack);
 			
-			for (int i = 0; i < stack.getSize(); i++) {
+			int size = stack.getSize();
+			for (int i = 0; i < size; i++) {
 				System.out.print(stack.pop() + " ");
 			}
 			input.close();
@@ -20,7 +21,7 @@ public class Problem2 {
 
 
 		private static void findFactors(int num, StackOfIntegers stack) {
-			for(int k = 2; k < num; k++) {
+			for(int k = 2; k <= num; k++) {
 				while(num%k == 0) {
 					stack.push(k);
 					num = num / k;

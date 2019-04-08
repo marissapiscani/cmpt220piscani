@@ -1,5 +1,6 @@
 package lab7;
 
+// JA: No UML?
 public class MyLong {
 private long value;
 	
