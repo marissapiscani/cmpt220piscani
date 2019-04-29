@@ -15,6 +15,7 @@ public class Lab9_4 {
 	System.out.println("Enter File Name: ");
 	String inputfile=inputFile.nextLine();
 
+	// JA: Input should come from the command line
 	String outputfile="wordsoutput.txt";
 
 	String deletemsg="hello" ;
