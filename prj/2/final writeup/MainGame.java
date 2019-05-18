@@ -16,10 +16,10 @@ public class MainGame {
 		System.out.print("Ok,"+ name+", it's time play a game");
 		boolean playAgain=true;
 		while(playAgain==true) {
-			storyFile file1=new storyFile("src/madlibs/txtfiles/holidayquest.txt");//replace filename with .txt file for each
-			storyFile file2 = new storyFile("src/madlibs/txtfiles/vacation.txt");
-			storyFile file3 = new storyFile("src/madlibs/txtfiles/mariststory.txt");
-			storyFile file4 = new storyFile("src/madlibs/txtfiles/rap.txt");
+			storyFile file1=new storyFile("holidayquest.txt");//replace filename with .txt file for each
+			storyFile file2 = new storyFile("vacation.txt");
+			storyFile file3 = new storyFile("mariststory.txt");
+			storyFile file4 = new storyFile("rap.txt");
 			storyFile[] stories= {file1,file2,file3,file4};
 			System.out.println("What story would you like? (1-4)");
 			int storyNum=s.nextInt();
